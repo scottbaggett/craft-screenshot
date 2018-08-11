@@ -1,4 +1,4 @@
-# Screenshotr plugin for Craft CMS 3.x
+# Screenshot plugin for Craft CMS 3.x
 
 Take screenshots of your routes and save them as assets
 
@@ -6,7 +6,7 @@ Take screenshots of your routes and save them as assets
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin requires Craft CMS 3.0.19 or later.
 
 ## Installation
 
