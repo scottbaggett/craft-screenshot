@@ -1,0 +1,40 @@
+{
+    "name": "superformula/craft-screenshot",
+    "description": "Take screenshots of your routes and save them as assets",
+    "type": "craft-plugin",
+    "version": "1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft-screenshot"
+    ],
+    "support": {
+        "docs": "https://github.com/scottbaggett/craft-screenshot/blob/master/README.md",
+        "issues": "https://github.com/scottbaggett/craft-screenshot/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Scott Baggett",
+            "homepage": "superformula.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.19"
+    },
+    "autoload": {
+        "psr-4": {
+          "superformula\\craft-screenshot\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "craft-screenshot",
+        "handle": "craft-screenshot",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/scottbaggett/craft-screenshot/master/CHANGELOG.md",
+        "class": "superformula\\craft-screenshot\\craft-screenshot"
+    }
+}
